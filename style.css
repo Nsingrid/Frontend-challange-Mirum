@@ -1,0 +1,74 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  margin: none;
+  padding: none;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(0deg, rgba(36, 76, 191, 1) 0%, rgba(78, 115, 222, 1) 100%);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.create__account {
+  border-radius: 0 10px 10px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .create__account {
+    border-radius: 10px 10px 10px 10px;
+  }
+}
+
+.min-vh-95 {
+  min-height: 95%;
+}
+
+.img__dog {
+  background-image: url('./assets/imgs/dog.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px 0 0 10px;
+}
+
+input.form-control {
+  padding: 30px !important;
+  border-radius: 50px;
+}
+
+.custom-btn {
+  line-height: 0;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn-register {
+  background: #4e73de;
+  padding: 30px 0;
+
+}
+
+.btn-google {
+  background: #e94236;
+  padding: 20px 0;
+}
+
+.btn-facebook {
+  background: #3a5898;
+  padding: 20px 0;
+}
+
+.form__content {
+  background-color: #fff;
+}
+
+a {
+  font-weight: 600;
+  text-decoration: none;
+}
