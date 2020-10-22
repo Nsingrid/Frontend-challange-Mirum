@@ -1,2 +1,9 @@
-# Frontend-challange-Mirum
- Desafio referente a vaga FrontEnd da empresa Mirum
+# Desafio Front-End Mirum
+
+Desafio desenvolvido com as tecnologias
+
+- HTML
+- CSS
+- Bootstrap
+- JQuery
+
